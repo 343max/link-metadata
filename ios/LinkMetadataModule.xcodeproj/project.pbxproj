@@ -49,7 +49,9 @@
 				FA4F9FE72512AA42002DB4D5 /* LinkMetadataModule.swift */,
 				FA0EFF61236CC8FB00069FA8 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		FA0EFF61236CC8FB00069FA8 /* Products */ = {
 			isa = PBXGroup;
