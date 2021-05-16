@@ -14,7 +14,7 @@ func mimeTypeForPath(url: URL) -> String {
 
 
 @available(iOS 11.0, *)
-func getImageURL(itemProvider: NSItemProvider?, callback: @escaping (String?) -> Void) {
+private func getImageURL(itemProvider: NSItemProvider?, callback: @escaping (String?) -> Void) {
   guard let itemProvider = itemProvider else {
     callback(nil)
     return

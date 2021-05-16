@@ -17,9 +17,10 @@ const LinkPreview: FC = () => {
 
   useEffect(() => {
     if (linkMetadata?.imageURL) {
-    Image.getSize(linkMetadata.imageURL, (width, height) => {
-      setSize({width, height})
-    })}
+      Image.getSize(linkMetadata.imageURL, (width, height) => {
+        setSize({width, height})
+      })
+    }
   }, [linkMetadata])
 
   if (linkMetadata === undefined) {
